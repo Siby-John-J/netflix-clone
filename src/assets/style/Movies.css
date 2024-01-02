@@ -1,0 +1,153 @@
+
+body {
+    background-color: black;
+    display: flex;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.movieList {
+    /* background-color: red; */
+    width: 90%;
+    margin-left: 4em;
+    /* overflow: hidden; */
+}
+
+.types h1 {
+    /* color: black; */
+    font-size: 1.7em;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-left: 14px;
+}
+
+.movies .outer-img {
+    height: 8em;
+    border-radius: 6px;
+}
+
+.movies {
+    margin-left: 1em;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.mainList {
+    display: flex;
+    flex-direction: row;
+    /* height: 22em; */
+    /* overflow-x: scroll; */
+    /* overflow-y: visible; */
+    /* z-index: 4; */
+}
+
+.mainList::-webkit-scrollbar {
+    /* display: none; */
+}
+
+.wrapTypes {
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+}
+
+.navigate {
+    width: 8em;
+}
+
+.content {
+    background-color: rgb(60, 51, 69);
+    /* height: 22em;
+    width: 22em; */
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    margin: -81px -41px;
+}
+
+.content:hover {
+    opacity: 1;
+    z-index: 10;
+    transition: 0.2s ease-in;
+    transform: scale(1);
+    /* background-color: rebeccapurple; */
+}
+
+.inner-img {
+    height: 12.36em;
+}
+
+.image-content {
+    /* background-color: red; */
+    height: 4em;
+    position: absolute;
+    inset: 0;
+    top: 8.20em;
+    /* opacity: 0.7; */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin: 50px; */
+}
+
+.image-content .speaker {
+    height: 28px;
+    margin-right: 19px;
+    border: solid 2px white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.image-content label {
+    font-size: 1.4em;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 600;
+    width: 85%;
+    padding-left: 10px;
+    /* background-color: green; */
+}
+
+.upper-content .play{
+    position: absolute;
+    inset: 0;
+    height: 3em;
+    top: 13em;
+    left: 1em;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.upper-content .plus {
+    margin: 3px 5em;
+    height: 3.6em;
+    cursor: pointer;
+    /* background-color: red; */
+}
+
+.upper-content .like {
+    position: absolute;
+    height: 2em;
+    left: 9.6em;
+    top: 12.9em;
+    border-radius: 50%;
+    border: 2px solid white;
+    cursor: pointer;
+    padding: 10px;
+    /* background-color: green; */
+}
+
+.upper-content .arrow {
+    position: absolute;
+    left: 18em;
+    top: 12.9em;
+    border-radius: 50%;
+    border: 2px solid white;
+    padding: 10px;
+    cursor: pointer;
+}

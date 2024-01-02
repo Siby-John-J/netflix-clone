@@ -1,0 +1,53 @@
+
+.navbar {
+    background-color: black;
+    font-family: sans-serif;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.part1 {
+    /* background-color: blue; */
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.part1 * {
+    margin-left: 25px;
+}
+
+.part1 img {
+    height: 1.5em;
+}
+
+.part1 a, .part2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.part2 {
+    /* background-color: blueviolet; */
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.part2 * {
+    margin-right: 2em;
+}
+
+/* .part2 img {
+    height: 1.7em;
+} */
+
+.icon {
+    height: 1.2em;
+}
+
+.avatar {
+    height: 2.3em;
+    border-radius: 4px;
+}
